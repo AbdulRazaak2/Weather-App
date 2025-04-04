@@ -4,7 +4,7 @@ document.getElementById('getWeather').addEventListener('click', () => {
     const humiEl = document.getElementById('humi');
     const descEl = document.getElementById('desc');
 
-    const apiKey = "3a245a419b7f01433f0dfb885d1c8e9e";
+    const apiKey = "531227b3b3af4bd19b3ba09c528958e1";
 
     const lat = document.getElementById('latitude').value;
     const lon = document.getElementById('longitude').value;
