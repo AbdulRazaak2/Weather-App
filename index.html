@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>🏞️ Weather in Your Location</h1>
+
+    <label for="latitude">Latitude:</label>
+    <input type="text" id="latitude" placeholder="Enter latitude"><br><br>
+
+    <label for="longitude">Longitude:</label>
+    <input type="text" id="longitude" placeholder="Enter longitude"><br><br>
+    <button id="getWeather">Get Weather</button>
+
+    <div class="weather-box">
+      <p id="city">Loading...</p>
+      <p id="temp"></p>
+      <p id="humi"></p>
+      <p id="desc"></p>
+    </div>
+  </div>
+
+  <div class="container1">
+    <h3>Cities</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>📍 City</th>
+                <th>🌍 Latitude</th>
+                <th>🌍 Longitude</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Pollachi</td><td>10.6588</td><td>77.0087</td></tr>
+            <tr><td>Coimbatore</td><td>11.0168</td><td>76.9558</td></tr>
+            <tr><td>Dharapuram</td><td>10.7383</td><td>77.5320</td></tr>
+            <tr><td>Tiruppur</td><td>11.1085</td><td>77.3411</td></tr>
+            <tr><td>Chennai</td><td>13.0827</td><td>80.2707</td></tr>
+            <tr><td>Bangalore</td><td>12.9716</td><td>77.5946</td></tr>
+            <tr><td>Mumbai</td><td>19.0760</td><td>72.8777</td></tr>
+            <tr><td>Delhi</td><td>28.6139</td><td>77.2090</td></tr>
+            <tr><td>New York</td><td>40.7128</td><td>-74.0060</td></tr>
+            <tr><td>Tokyo</td><td>35.6762</td><td>139.6503</td></tr>
+            <tr><td>London</td><td>51.5074</td><td>-0.1278</td></tr>
+            <tr><td>Dubai</td><td>25.2048</td><td>55.2708</td></tr>
+        </tbody>
+    </table>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
